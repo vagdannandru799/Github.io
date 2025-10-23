@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Vamsi — Cybersecurity Analyst (CV)</title>
+<meta name="description" content="Vamsi — MSc IT (Cybersecurity). Offensive security, pentesting, Raspberry Pi projects."/>
+<link rel="icon" href="data:,">
+<style>
+  :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#7dd3fc; --glass: rgba(255,255,255,0.03)}
+  *{box-sizing:border-box}body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;background:linear-gradient(180deg,#071021 0%,#071927 60%);color:#e6eef6;line-height:1.4}
+  .wrap{max-width:980px;margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.7)}
+  header{display:flex;gap:20px;align-items:center}
+  .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#022; font-size:28px}
+  h1{margin:0;font-size:26px}
+  p.lead{margin:6px 0;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:20px}
+  .card{background:var(--card);padding:18px;border-radius:10px}
+  .section h3{margin:0 0 8px 0;color:var(--accent);font-size:14px;text-transform:uppercase;letter-spacing:1px}
+  ul.skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:8px 0 0 0;list-style:none}
+  ul.skills li{background:var(--glass);padding:6px 10px;border-radius:8px;color:var(--muted);font-size:13px}
+  .contact a{color:var(--accent);text-decoration:none}
+  .projects, .exp{margin-top:10px}
+  .row{display:flex;justify-content:space-between;gap:8px}
+  .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#022;text-decoration:none;font-weight:600}
+  footer{margin-top:18px;color:var(--muted);font-size:13px}
+  @media(max-width:880px){.grid{grid-template-columns:1fr;}.avatar{width:76px;height:76px}}
+  /* Print tweak */
+  @media print{body{background:white;color:black} .wrap{box-shadow:none;background:white} a::after{content:" (" attr(href) ")"} .avatar{display:none}}
+</style>
+</head>
+<body>
+<main class="wrap" role="main">
+  <header>
+    <div class="avatar">V</div>
+    <div>
+      <h1>Vamsi — MSc IT (Cybersecurity)</h1>
+      <p class="lead">Offensive security enthusiast · Pentesting (CompTIA Pentest+) · Embedded systems & Raspberry Pi projects · Seeking junior roles in SOC / Red Team</p>
+      <div style="margin-top:8px">
+        <a class="btn" href="resume.pdf" download>Download PDF Resume</a>
+        <a class="btn" href="#contact" style="margin-left:8px;background:transparent;border:1px solid rgba(125,211,252,0.12);color:var(--accent)">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="grid" style="margin-top:20px">
+    <div>
+      <section class="card section">
+        <h3>Summary</h3>
+        <p>I’m a MSc IT student specialised in cybersecurity (Robert Gordon University). I love hands-on pentesting, Raspberry Pi labs, web app security, and learning practical defensive techniques. Looking for entry-level roles where I can learn and contribute quickly.</p>
+      </section>
+
+      <section class="card section" style="margin-top:12px">
+        <h3>Experience & Projects</h3>
+        <div class="exp">
+          <strong>Academic pentest project — MFA bypass with Evilginx2</strong>
+          <div class="row" style="font-size:13px;color:var(--muted)"><span>2025 · MSc project</span><span>Grade: A</span></div>
+          <p style="margin-top:8px;color:var(--muted)">Built phishing relay and demonstrated mitigation steps; documented lessons learned and defense hardening.</p>
+        </div>
+
+        <div class="exp" style="margin-top:10px">
+          <strong>Raspberry Pi lab — Kali on external SSD</strong>
+          <div class="row" style="font-size:13px;color:var(--muted)"><span>2025</span></div>
+          <p style="margin-top:8px;color:var(--muted)">Automated headless setup, Wi-Fi adapter testing, practical pentesting toolchain setup for learning and practice.</p>
+        </div>
+      </section>
+
+      <section class="card section" style="margin-top:12px">
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>nmap</li><li>Burp</li><li>Wireshark</li><li>Kali Linux</li><li>Raspberry Pi</li><li>Python</li><li>Basic web sec</li>
+        </ul>
+      </section>
+
+      <section class="card section" style="margin-top:12px">
+        <h3>Education</h3>
+        <div style="color:var(--muted)"><strong>MSc IT (Cybersecurity)</strong><br>Robert Gordon University — 2024–2025</div>
+      </section>
+    </div>
+
+    <aside>
+      <div class="card contact">
+        <h3>Contact</h3>
+        <p style="margin:0 0 8px 0;color:var(--muted)">Email: <a href="mailto:you@example.com">you@example.com</a><br>Location: Aberdeen, UK</p>
+        <div style="margin-top:8px"><strong>Profiles</strong>
+          <ul style="padding-left:18px;color:var(--muted);margin-top:6px">
+            <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>Availability</h3>
+        <p style="color:var(--muted);margin:0">Open to junior/graduate roles and internships. Eligible to work in the UK.</p>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>Quick links</h3>
+        <p style="margin:0"><a href="#projects" style="color:var(--accent)">Projects</a> · <a href="resume.pdf" style="color:var(--accent)">Download PDF</a></p>
+      </div>
+    </aside>
+  </div>
+
+  <footer style="margin-top:18px">Last updated: <time datetime="2025-10-23">23 Oct 2025</time> · Built with HTML/CSS · <a href="mailto:you@example.com">you@example.com</a></footer>
+</main>
+</body>
+</html>
